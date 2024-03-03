@@ -16,9 +16,15 @@
   },
   "dependencies": {
     "@hapi/boom": "9.x.x",
+    "@hapi/jwt": "^3.2.0",
     "@hapipal/haute-couture": "4.x.x",
+    "@hapipal/schmervice": "^3.0.0",
     "@hapipal/schwifty": "6.x.x",
+    "iut-encrypt-mathis": "^1.0.2",
     "joi": "17.x.x",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.9.11",
     "objection": "2.x.x"
   },
   "peerDependencies": {
@@ -30,8 +36,8 @@
     "@hapi/eslint-plugin-hapi": "4.x.x",
     "@hapi/glue": "8.x.x",
     "@hapi/hapi": "20.x.x",
-    "@hapi/inert": "6.x.x",
     "@hapi/hoek": "9.x.x",
+    "@hapi/inert": "6.x.x",
     "@hapi/lab": "24.x.x",
     "@hapi/vision": "6.x.x",
     "@hapipal/confidence": "6.x.x",
@@ -43,7 +49,7 @@
     "eslint": "7.x.x",
     "exiting": "6.x.x",
     "hapi-swagger": "14.x.x",
-    "knex": "0.21.x",
+    "knex": "^0.21.21",
     "sqlite3": "5.x.x"
   },
   "repository": {
